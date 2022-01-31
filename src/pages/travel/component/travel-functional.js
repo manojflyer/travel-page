@@ -3,7 +3,7 @@ import TravelPresentational from './travel-presentational';
 
 const TravelFunctional = () => {
 	return (
-		<div>
+		<div className="test">
 			<TravelPresentational />
 		</div>
 	);
