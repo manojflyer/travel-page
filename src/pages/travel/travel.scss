@@ -1,0 +1,27 @@
+.travel_header {
+	position: 'absolute';
+	top: '0';
+	left: '0';
+	width: '100%';
+	background: 'none';
+	display: 'flex';
+	justify-content: 'flex-end';
+	z-index: '1';
+	&_logo {
+		float: left;
+		width: 85%;
+		background: rgba(255, 255, 255, 0.2);
+	}
+	&_text {
+		align-items: center;
+		position: relative;
+		top: -430px;
+		display: flex;
+		justify-content: flex-end;
+		left: -320px;
+	}
+}
+.ant-layout-header .ant-menu {
+	line-height: inherit;
+	background: none;
+}
